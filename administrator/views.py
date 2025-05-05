@@ -30,7 +30,7 @@ def find_n_winners(data, n):
     return ", &nbsp;".join(final_list)
 
 
-class PrintView(PDFView):
+"""class PrintView(PDFView):
     template_name = 'admin/print.html'
     prompt_download = True
 
@@ -86,7 +86,7 @@ class PrintView(PDFView):
                 'candidate_data': candidate_data, 'winner': winner, 'max_vote': position.max_vote}
         context['positions'] = position_data
         print(context)
-        return context
+        return context"""
 
 
 def dashboard(request):
